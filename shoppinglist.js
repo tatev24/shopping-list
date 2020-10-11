@@ -1,22 +1,22 @@
-var thingsArray = ['pizza', 'pasta', 'cat', 'pens'];
+var initialArray = ['pizza', 'pasta', 'cat', 'pens'];
 
 function handleList() {
   var list = '';
-  for (i = 0; i < thingsArray.length; i++){
-     list = list + '<li>' + thingsArray[i] + '<li>';
+  for (i = 0; i < initialArray.length; i++){
+     list = list + '<li>' + initialArray[i] + '<li>';
   }
   document.getElementById('ul').innerHTML = list;
 }
 handleList();
 
 function removeButton(){
-  thingsArray.pop();
+  initialArray.pop();
   handleList();
 }
 
 function addButton() {
   var inputValue = document.getElementById('input').value;
-  thingsArray.push(inputValue);
+  initialArray.push(inputValue);
 
   handleList();
 }
