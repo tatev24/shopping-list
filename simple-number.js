@@ -19,7 +19,7 @@ function showFirstNSimpleNumbers() {
 
   for (i = 2; i < maxnumber; i++){
     var c = checkFunction(i);
-    if(c == 'true'){
+    if(c == ' true'){
       simpleNumbersArray.push(i);
     }
   }
