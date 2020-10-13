@@ -13,9 +13,6 @@ function checkFunction(number){
   return status;
 }
 
-// var c = checkFunction(3);
-// console.log(c);
-
 function showFirstNSimpleNumbers() {
   var maxnumber = 101;
   var simpleNumbersArray = [];
@@ -28,14 +25,6 @@ function showFirstNSimpleNumbers() {
   }
   return simpleNumbersArray;
 }
-
-// RULE number 1
-// misht popoxakan haytarareluc qri var u verj!!!
-// ete ches grum inq@ globala haskanum u et depqum 2 functioni mej nuyn i a grac!
-
-// Braek, Continue karda FOR loop-i hamara
-// U mekel while-ov loop gri lav vorpes orinak! de good night and sweet dreams!okay good night  
-
 
 var result = showFirstNSimpleNumbers();
 console.log('First 100 simple numbers', result);
