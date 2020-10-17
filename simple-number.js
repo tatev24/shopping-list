@@ -27,4 +27,4 @@ function showFirstNSimpleNumbers() {
 }
 
 var result = showFirstNSimpleNumbers();
-console.log('First 100 simple numbers', result);
+// console.log('First 100 simple numbers', result);

@@ -14,4 +14,4 @@ function thisFunction(){
   return numbersArray;
 }
 var result = thisFunction();
-console.log(result);
+// console.log(result);
