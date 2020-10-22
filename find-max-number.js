@@ -53,3 +53,15 @@ function uppercaseFunction(strInput){
 
 var func = uppercaseFunction(stringText);
 console.log(func);
+
+
+
+// Home work 1:
+// function palindrome(str) {
+//   return true;
+// }
+// palindrome("millim");
+// max 1 +5
+
+// Update simple number check function!
+// max 1 +5
